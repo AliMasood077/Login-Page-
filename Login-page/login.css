@@ -1,0 +1,94 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: Arial;
+
+}
+
+body {
+background: url(login-back.jpg) no-repeat center center fixed;
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+.container {
+height: 350px;
+width: 300px;
+margin-top: 50px;
+text-align: center;
+padding: 20px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+border-radius: 10px;
+color: white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+/* background-color: rgba(0, 0, 0, 0.2); */
+}
+
+.container h2{
+color: #fff9f9;
+margin-bottom: 30px;
+font-size: 25px;
+border-bottom: 2px solid purple;
+}
+
+.container form {
+margin: 15px;
+}
+
+
+.btn{
+margin:15px;
+font-size: 15px;
+height: 30px;
+width: 70px;
+text-align: center;
+border-radius:20px;
+border:2px solid purple ;
+background-color: transparent;
+color: white;
+cursor: pointer;
+}
+
+.btn:hover{
+    color: beige;
+}
+
+
+.inputfield i {
+font-size: 17px;
+margin-right: 10px; /* Add some space between icon and input */
+}
+
+.inputfield input {
+font-size: 16px;
+background-color: transparent;
+color: white;
+border: none;
+width: 82%;
+border-bottom:2px solid purple;
+outline: none;
+padding: 5px;
+cursor: pointer;
+}
+
+
+
+a{
+color: white;
+text-decoration: none;
+
+}
+a:hover{
+color:purple;
+}
+
+.password{
+padding:10px
+
+}
